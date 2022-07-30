@@ -22,7 +22,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // authentication with bloc
+    // initialising bloc
     return BlocProvider(
       create: (context) => AuthenticationBloc(
         authenticationRepository: AuthenticationRepository(
